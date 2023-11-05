@@ -34,37 +34,37 @@ public class Konversi_Bilangan {
                 break;
             case 2: // Desimal --> Biner
                 System.out.print("Masukkan bilangan desimal: ");
-                int desimalInput = input.nextInt();
-                String binerOutput = Integer.toBinaryString(desimalInput);
-                System.out.println("Hasil konversi ke biner: " + binerOutput);
+                int desimal2= input.nextInt();
+                String biner2 = Integer.toBinaryString(desimal2);
+                System.out.println("Hasil konversi ke biner: " + biner2);
                 break;
             case 3: // Biner --> Heksadesimal
                 System.out.print("Masukkan bilangan biner: ");
-                String binerInput = input.next();
-                int desimalOutput = Integer.parseInt(binerInput, 2);
-                String heksadesimal = Integer.toHexString(desimalOutput).toUpperCase(); // Mengubah huruf menjadi kapital
-                System.out.println("Hasil konversi ke heksadesimal: " + heksadesimal);
+                String biner3 = input.next();
+                int desimal3 = Integer.parseInt(biner3, 2);
+                String heksadesimal3 = Integer.toHexString(desimal3).toUpperCase(); // Mengubah huruf menjadi kapital
+                System.out.println("Hasil konversi ke heksadesimal: " + heksadesimal3);
                 break;
             case 4: // Heksadesimal --> Biner
                 System.out.print("Masukkan bilangan heksadesimal: ");
-                String heksaInput = input.next();
-                heksaInput = heksaInput.toUpperCase(); // Mengubah huruf menjadi kapital
-                int desimalFromHeks = Integer.parseInt(heksaInput, 16);
-                String binerFromHeks = Integer.toBinaryString(desimalFromHeks);
-                System.out.println("Hasil konversi ke biner: " + binerFromHeks);
+                String heksadesimal4 = input.next();
+                heksadesimal4= heksadesimal4.toUpperCase(); // Mengubah huruf menjadi kapital
+                int desimal4 = Integer.parseInt(heksadesimal4, 16);
+                String biner4 = Integer.toBinaryString(desimal4);
+                System.out.println("Hasil konversi ke biner: " + biner4);
                 break;
             case 5: // Desimal --> Heksadesimal
                 System.out.print("Masukkan bilangan desimal: ");
-                int desimalInput2 = input.nextInt();
-                String heksaOutput = Integer.toHexString(desimalInput2).toUpperCase(); // Mengubah huruf menjadi kapital
-                System.out.println("Hasil konversi ke heksadesimal: " + heksaOutput);
+                int desimal5 = input.nextInt();
+                String heksadesimal5 = Integer.toHexString(desimal5).toUpperCase(); // Mengubah huruf menjadi kapital
+                System.out.println("Hasil konversi ke heksadesimal: " + heksadesimal5);
                 break;
             case 6: // Heksadesimal --> Desimal
                 System.out.print("Masukkan bilangan heksadesimal: ");
-                String heksaInput2 = input.next();
-                heksaInput2 = heksaInput2.toUpperCase(); // Mengubah huruf menjadi kapital
-                int desimalFromHeks2 = Integer.parseInt(heksaInput2, 16);
-                System.out.println("Hasil konversi ke desimal: " + desimalFromHeks2);
+                String heksadesimal6 = input.next();
+                heksadesimal6 = heksadesimal6.toUpperCase(); // Mengubah huruf menjadi kapital
+                int desimal6 = Integer.parseInt(heksadesimal6, 16);
+                System.out.println("Hasil konversi ke desimal: " + desimal6);
                 break;
             
             default:
